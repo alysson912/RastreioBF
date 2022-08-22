@@ -13,6 +13,8 @@
 		768DE75828B1456F00F15058 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768DE75628B1456F00F15058 /* Main.storyboard */; };
 		768DE75A28B1457000F15058 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768DE75928B1457000F15058 /* Assets.xcassets */; };
 		768DE75D28B1457000F15058 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768DE75B28B1457000F15058 /* LaunchScreen.storyboard */; };
+		768DE76528B14D4B00F15058 /* SettingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DE76428B14D4B00F15058 /* SettingsTableViewCell.swift */; };
+		76913C3F28B4243300CBE025 /* SwitchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76913C3E28B4243300CBE025 /* SwitchTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		768DE75928B1457000F15058 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		768DE75C28B1457000F15058 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		768DE75E28B1457000F15058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768DE76428B14D4B00F15058 /* SettingsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewCell.swift; sourceTree = "<group>"; };
+		76913C3E28B4243300CBE025 /* SwitchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				768DE75028B1456F00F15058 /* AppDelegate.swift */,
 				768DE75228B1456F00F15058 /* SceneDelegate.swift */,
-				768DE75428B1456F00F15058 /* ViewController.swift */,
 				768DE75628B1456F00F15058 /* Main.storyboard */,
 				768DE75928B1457000F15058 /* Assets.xcassets */,
 				768DE75B28B1457000F15058 /* LaunchScreen.storyboard */,
 				768DE75E28B1457000F15058 /* Info.plist */,
+				768DE75428B1456F00F15058 /* ViewController.swift */,
+				768DE76428B14D4B00F15058 /* SettingsTableViewCell.swift */,
+				76913C3E28B4243300CBE025 /* SwitchTableViewCell.swift */,
 			);
 			path = RastreioBF;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				768DE75528B1456F00F15058 /* ViewController.swift in Sources */,
 				768DE75128B1456F00F15058 /* AppDelegate.swift in Sources */,
+				76913C3F28B4243300CBE025 /* SwitchTableViewCell.swift in Sources */,
+				768DE76528B14D4B00F15058 /* SettingsTableViewCell.swift in Sources */,
 				768DE75328B1456F00F15058 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
